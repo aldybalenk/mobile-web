@@ -1,0 +1,57 @@
+.App {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; 
+}
+
+h1 {
+  text-align: center;
+  color: #080808; 
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.news-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  transition: background-color 0.3s ease;
+  background-color: #a7e7f3; 
+}
+
+.news-item h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #1a0bec; 
+}
+
+.news-item p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.news-item:hover {
+  background-color: #ffe4e1;
+}
+
+.news-item p strong {
+  color: #333;
+}
